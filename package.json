@@ -1,0 +1,14 @@
+{
+  "name": "uem",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --if-present dev",
+    "test": "pnpm -r --if-present test",
+    "db:migrate": "pnpm --filter @uem/db migrate"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

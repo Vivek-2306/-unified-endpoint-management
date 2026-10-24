@@ -1,0 +1,10 @@
+{
+  "name": "@uem/satellite-worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node src/main.ts"
+  }
+}
